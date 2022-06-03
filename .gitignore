@@ -18,6 +18,7 @@ lib/
 lib64/
 parts/
 sdist/
+chest_xray/
 var/
 wheels/
 pip-wheel-metadata/
