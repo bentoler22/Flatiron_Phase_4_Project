@@ -17,6 +17,7 @@ eggs/
 lib/
 lib64/
 parts/
+chest_xray/
 sdist/
 var/
 wheels/
