@@ -21,7 +21,7 @@ The data for this project comes from the Guangzhou Women and Children’s Medica
 ## Results
 
 
-![pneumonia_classifcation](./images/pneumonia_classifcation.png)
+![pneumonia_classification](./images/pneumonia_classification.png)
 
 ## Conclusions
 - **Use model in evaluating potential pneumonia patients:** With a 96% accuracy, the model should be used in conjunction with the standard manual diagnosis process to help reduce errors in pneumonia detection.
