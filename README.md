@@ -43,7 +43,8 @@ For additional info, contact Benjamin Toler at [bentoler22@gmail.com](mailto:ben
 ## Repository Structure
 
 ```
-├── data
+├── cnn_model_7
+├── final_model
 ├── images
 ├── .gitignore
 └── Chest_Xray_Pneumonia_Classification.ipynb
