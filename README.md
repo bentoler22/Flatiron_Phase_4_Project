@@ -5,10 +5,10 @@
 **Author:** Benjamin Toler
 
 ## Overview
-This project used nearly 6,000 pediatric xray images from the Guangzhou Women and Children’s Medical Center to develop an image classification model that can accurately identify the presence of pneumonia. The model has been developed for a local hospital that is looking to increase their efficiency and accuracy in diagnosing pneumonia in order to improve patient experience and outcome. The data was processed using ImageDataGenerator from the keras library, and then split into training, validation, and test datasets. The training set was further split into a smaller training set for faster processing on initial modeling iterations. The project uses convolutional neural networks from the keras library. Over several iterations, the model complexity of the model architecture is adjusted through the number of layers, the number of convolutional filters, and the number of neurons. Additionally, several regularization techniques are applied to reduce overfitting. The final CNN model showed a 96% accuracy in detecting pneumonia.
+This project used nearly 6,000 pediatric xray images from the Guangzhou Women and Children’s Medical Center to develop an image classification model that can accurately identify the presence of pneumonia. The model has been developed for a local hospital that is looking to increase their efficiency and accuracy in diagnosing pneumonia in order to improve patient experience and outcome. The data was processed using ImageDataGenerator from the keras library, and then split into training, validation, and test datasets. The training set was further split into a smaller training set for faster processing on initial modeling iterations. The project uses convolutional neural networks from the keras library. Over several iterations, the complexity of the model architecture is adjusted through the number of layers, the number of convolutional filters, and the number of neurons. Additionally, several regularization techniques are applied to reduce overfitting. The final CNN model showed a 96% accuracy in detecting pneumonia.
 
 ## Business Problem
-A local hospital is looking to improve the efficiency and accuracy in which they diagnose pediatric pneumonia. Using a classification model will make the daignosis process faster and reduce errors.
+A local hospital is looking to improve the efficiency and accuracy in which they diagnose pediatric pneumonia. Using a classification model will decrease patient wait times and reduce errors, making overall patient experience better.
 
 ## Data
 The data for this project comes from the Guangzhou Women and Children’s Medical Center. It consists of 5,956 chest x-ray images (256x256) of patients ages 1-5. The dataset has a class imbalance of 73% pneumonia and 27% normal.
@@ -19,7 +19,7 @@ The data for this project comes from the Guangzhou Women and Children’s Medica
 A convolutional neural network(CNN) model was constructed using an iterative approach. The model architecture and hyperparameters were tuned and regularization techniques were deployed until an acceptable training and validation accuracy score was reached.  
 
 ## Results
-The final model consisted of 2 convolutional layers each followed by max pooling layers, a flattening layer, and one hidden and one output dense layer. The final model has a 96% accuracy and 94% recall on the test dataset. The model showed that bacterial pneumonia presents itself as a localized cloudy arew in the xray, whereas viral pneuomina is seen more dispersed throughout the xray image.
+The final model consisted of 2 convolutional layers each followed by max pooling layers, a flattening layer, and one hidden and one output dense layer. The final model has a 96% accuracy and 94% recall on the test dataset. The model showed that bacterial pneumonia presents itself as a localized cloudy area in the xray, whereas viral pneuomina is seen more dispersed throughout the xray image.
 
 ![pneumonia_classification](./images/pneumonia_classification.png)
 
