@@ -19,7 +19,7 @@ The data for this project comes from the Guangzhou Women and Children’s Medica
 A convolutional neural network(CNN) model was constructed using an iterative approach. The model architecture and hyperparameters were tuned and regularization techniques were deployed until an acceptable training and validation accuracy score was reached.  
 
 ## Results
-The final model consisted of 2 convolutional layers each followed by max pooling layers, a flattening layer, and one hidden and one output dense layer. The intial model started with a 67% accuracy, and predicted only pneumonia as seen in the first confusion matrix belwo. The final model finished wiht a 96% accuracy only misclassified 14 of the 646 pneumonia images in the test dataset as seen in the second confusion matrix below.
+The final model consisted of 2 convolutional layers each followed by max pooling layers, a flattening layer, and one hidden and one output dense layer. The intial model started with a 67% accuracy, and predicted only pneumonia as seen in the first confusion matrix below. The final model finished with a 96% accuracy and only misclassified 14 of the 646 pneumonia images in the test dataset as seen in the second confusion matrix below.
 
 ![confusion_matrix_baseline](./images/confusion_matrix_baseline.png) | ![confusion_matrix_final](./images/confusion_matrix_final.png) 
 
