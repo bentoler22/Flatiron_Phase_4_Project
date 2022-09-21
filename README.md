@@ -21,7 +21,7 @@ A convolutional neural network(CNN) model was constructed using an iterative app
 ## Results
 The final model consisted of 2 convolutional layers each followed by max pooling layers, a flattening layer, and one hidden and one output dense layer. The intial model started with a 67% accuracy, and the final model finished wiht a 96% accuracy as seen below. The final model only misclassified 16 of the 641 pneumonia images in the test dataset as seen in the confusion matrix below.
 
-![model_accuracy](./images/model_accuracy.png)    ![confusion_matrix](./images/confusion_matrix.png) 
+![model_accuracy](./images/model_accuracy.png) | ![confusion_matrix](./images/confusion_matrix.png) 
 
 ## Conclusions
 - **Use model in evaluating potential pneumonia patients:** With a 96% accuracy, the model should be used in conjunction with the standard manual diagnosis process to help reduce errors in pneumonia detection.
