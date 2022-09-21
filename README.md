@@ -19,9 +19,9 @@ The data for this project comes from the Guangzhou Women and Children’s Medica
 A convolutional neural network(CNN) model was constructed using an iterative approach. The model architecture and hyperparameters were tuned and regularization techniques were deployed until an acceptable training and validation accuracy score was reached.  
 
 ## Results
-The final model consisted of 2 convolutional layers each followed by max pooling layers, a flattening layer, and one hidden and one output dense layer. The final model has a 96% accuracy and 94% recall on the test dataset. The model showed that bacterial pneumonia presents itself as a localized cloudy area in the xray, whereas viral pneuomina is seen more dispersed throughout the xray image.
+The final model consisted of 2 convolutional layers each followed by max pooling layers, a flattening layer, and one hidden and one output dense layer. The intial model started with a 67% accuracy, and the final model finished wiht a 96% accuracy as seen below. The final model only misclassified 16 of the 641 pneumonia images in the test dataset as seen in the confusion matrix below.
 
-![pneumonia_classification](./images/pneumonia_classification.png)
+![model_accuracy](./images/model_accuracy.png)    ![confusion_matrix](./images/confusion_matrix.png) 
 
 ## Conclusions
 - **Use model in evaluating potential pneumonia patients:** With a 96% accuracy, the model should be used in conjunction with the standard manual diagnosis process to help reduce errors in pneumonia detection.
